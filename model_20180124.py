@@ -10,7 +10,8 @@ import pandas as pd
 import numpy as np
 import math
 os.chdir('D:/model/其他')
-#ddq= pd.read_sas('doudou_v11.sas7bdat')
+#ddq= pd.read_sas('doudou_v11.sas7bdat')‘
+#test github
 
 ddq= pd.read_excel('data.xlsx')
 #a2=pd.pivot_table(a1,index=["LND_DAY"],values=["TARGET"],aggfunc=[np.sum,len],margins=True)
